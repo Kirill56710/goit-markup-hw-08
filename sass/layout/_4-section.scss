@@ -51,9 +51,10 @@
   width: 20px;
   height: 20px;
   fill: currentcolor;
-}
-&:hover,
-&:link:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+
+  &:hover,
+  &:link:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+  }
 }
