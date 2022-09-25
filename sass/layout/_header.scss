@@ -1,0 +1,133 @@
+header {
+  border-bottom: 1px solid #ececec;
+}
+.item {
+  position: relative;
+  margin-right: 50px;
+}
+.item:last-child {
+  margin-right: 0px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .logo {
+  margin-right: 93px;
+}
+.site-nav .item .logo :last-child {
+  margin-right: 0px;
+}
+.auto-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.site-link {
+  position: relative;
+  color: var(--color-text-title);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  line-height: 1.14;
+  padding: 32px 0;
+  display: block;
+
+  &:hover {
+    color: #2196f3;
+  }
+}
+
+.curent::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+}
+
+.curent {
+  color: #2196f3;
+}
+
+.site-link::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover::after,
+  &:focus::after {
+    color: #2196f3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
+    transform: scaleX(1);
+  }
+}
+
+.auto-link {
+  color: var(--color-p);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  line-height: 1.14;
+  padding: 32px 0;
+  display: flex;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}
+
+.mail {
+  display: flex;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--color-accent);
+  line-height: 1.19;
+}
+.logo-header {
+  color: var(--color-logo);
+}
+.button-svg {
+  padding: 0px;
+  border: 0px;
+}
+.item-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.item-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
