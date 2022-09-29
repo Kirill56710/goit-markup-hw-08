@@ -40,5 +40,14 @@
 }
 .mobile-media {
   color: #2196f3;
-  border-left: solid 1 px #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.22;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mobile-item-media:not(:last-child) {
+  border-right: solid 1px rgba(33, 33, 33, 0.2);
 }
