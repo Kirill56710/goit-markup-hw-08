@@ -26,7 +26,7 @@
             >Web<span class="logo-header">Studio</span></a
           >
 
-          <!--навигация-->
+          <!--навигация пк-->
           <ul class="site-nav list">
             <li class="item">
               <a class="site-link curent" href="./index.html ">Студія</a>
@@ -39,12 +39,6 @@
             </li>
           </ul>
         </nav>
-        <!--контакты хедер-->
-        <button type="button" class="mobile-menu-btn" data-menu-open>
-          <svg class="mobile-menu-btn-svg">
-            <use href="./image/symbol-defs.svg#burger"></use>
-          </svg>
-        </button>
         <ul class="auto-nav list">
           <li class="item">
             <a class="auto-link" href="mailto:info@devstudio.com">
@@ -63,6 +57,13 @@
             </a>
           </li>
         </ul>
+
+        <!--мобильный хедер-->
+        <button type="button" class="mobile-menu-btn" data-menu-open>
+          <svg class="mobile-menu-btn-svg">
+            <use href="./image/symbol-defs.svg#burger"></use>
+          </svg>
+        </button>
       </div>
       <div class="mobile-menu" data-menu>
         <div class="container container-mobile">
@@ -71,31 +72,37 @@
               <use href="./image/symbol-defs.svg#icon-Close"></use>
             </svg>
           </button>
+
+          <!-- мобильноее меню -->
           <div class="mobile-box">
             <nav class="mobile-nav">
               <ul class="mobile-list list">
-                <li class="nav-item">
-                  <a href="./index.html" class="link current nav-link"
+                <li class="mobile-item">
+                  <a href="./index.html" class="link current mobile-site-link"
                     >Студія</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a href="./portfolio.html" class="link nav-link">Портфоліо</a>
+                <li class="mobile-item">
+                  <a href="./portfolio.html" class="link mobile-site-link"
+                    >Портфоліо</a
+                  >
                 </li>
-                <li class="nav-item">
-                  <a href="./index.html" class="link nav-link">Контакти</a>
+                <li class="mobile-item">
+                  <a href="./index.html" class="link mobile-site-link"
+                    >Контакти</a
+                  >
                 </li>
               </ul>
             </nav>
             <ul class="mobile-contact-list list">
               <li class="contact-item">
-                <a class="contact-link link" href="tel:+380961111111"
+                <a class="mobile-auto-link link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
               <li class="contact-item">
                 <a
-                  class="mobile-contact-link link"
+                  class="mobile-auto-link link"
                   href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
@@ -103,17 +110,25 @@
             </ul>
             <ul class="mobile-socials">
               <li class="list mobile-item">
-                <a class="link" href="https://www.instagram.com">Instagram</a>
+                <a class="link mobile-media" href="https://www.instagram.com"
+                  >Instagram</a
+                >
               </li>
 
               <li class="list mobile-item">
-                <a class="link" href="https://twitter.com">Twitter</a>
+                <a class="link mobile-media" href="https://twitter.com"
+                  >Twitter</a
+                >
               </li>
               <li class="list mobile-item">
-                <a class="link" href="https://www.facebook.com">Facebook</a>
+                <a class="link mobile-media" href="https://www.facebook.com"
+                  >Facebook</a
+                >
               </li>
               <li class="list mobile-item">
-                <a class="link" href="https://www.linkedin.com">LinkedIn</a>
+                <a class="link mobile-media" href="https://www.linkedin.com"
+                  >LinkedIn</a
+                >
               </li>
             </ul>
           </div>
