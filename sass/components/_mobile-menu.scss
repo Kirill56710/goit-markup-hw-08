@@ -19,6 +19,9 @@
 .container-mobile {
   position: relative;
   padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .mobile-close-btn {
   position: absolute;
@@ -34,4 +37,12 @@
 .mobile-close-svg {
   width: 40px;
   height: 40px;
+}
+.mobile-socials {
+  margin-top: auto;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+.mobile-item {
+  margin-bottom: auto;
 }
