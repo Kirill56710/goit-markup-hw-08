@@ -250,10 +250,6 @@ img:last-child {
   display: none;
 }
 
-.auto-nav {
-  display: none;
-}
-
 .page-header {
   display: flex;
   height: 60px;
@@ -318,6 +314,11 @@ header {
   margin-left: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .auto-nav {
+    display: none;
+  }
+}
 .site-link {
   position: relative;
   color: var(--color-text-title);
@@ -408,6 +409,10 @@ header {
   border: 0px;
 }
 
+.contact-item {
+  flex-direction: column;
+}
+
 .item-mail {
   width: 16px;
   height: 12px;
@@ -455,7 +460,7 @@ header {
   letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.15;
-  padding-bottom: 32px;
+  padding-bottom: 32px 0;
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

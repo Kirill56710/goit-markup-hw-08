@@ -1,9 +1,6 @@
 .site-nav {
   display: none;
 }
-.auto-nav {
-  display: none;
-}
 .page-header {
   display: flex;
   height: 60px;
@@ -58,7 +55,11 @@ header {
   display: flex;
   margin-left: auto;
 }
-
+@media screen and (max-width: 767px) {
+  .auto-nav {
+    display: none;
+  }
+}
 .site-link {
   position: relative;
   color: var(--color-text-title);
