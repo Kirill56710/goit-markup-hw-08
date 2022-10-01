@@ -167,12 +167,6 @@ img:last-child {
   height: 40px;
 }
 
-.mobile-socials {
-  margin-top: auto;
-  flex-wrap: wrap;
-  margin-bottom: 48px;
-}
-
 .mobile-item {
   margin-bottom: auto;
 }
@@ -483,8 +477,9 @@ header {
 
 .mobile-socials {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: auto;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 
 .mobile-media {
