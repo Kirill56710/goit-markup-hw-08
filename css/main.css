@@ -137,6 +137,11 @@ img:last-child {
   background-color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    max-width: 767px;
+  }
+}
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
