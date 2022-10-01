@@ -8,16 +8,12 @@
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.container-mobile {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .mobile-menu-btn {
   line-height: 0;
   border: none;
   padding: 0;
   background-color: transparent;
+  margin-left: auto;
 }
 .mobile-menu-btn-svg {
   width: 40px;
