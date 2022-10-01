@@ -258,6 +258,7 @@ img:last-child {
 .page-header {
   padding-top: 16px;
   padding-bottom: 16px;
+  height: 60px;
 }
 
 .mobile-menu-btn {
