@@ -1,0 +1,60 @@
+.section.grey {
+  background: var(--color-background-secondary);
+}
+.emploer {
+  display: flex;
+  gap: 30px;
+}
+.emploer-item {
+  background: #ffffff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.emploer-div {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.employee {
+  text-align: center;
+}
+.job-title {
+  font-weight: 400;
+  color: var(--color-p);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 10px;
+}
+.emploer-link {
+  display: inline-flex;
+  color: #afb1b8;
+  text-decoration: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.emploer-ul-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+.emploer-svg {
+  width: 20px;
+  height: 20px;
+  fill: currentcolor;
+
+  &:hover,
+  &:link:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+  }
+}
