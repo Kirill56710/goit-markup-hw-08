@@ -24,7 +24,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.15;
-  padding: 32px 0;
+  padding-bottom: 32px 0;
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -41,7 +41,6 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.15;
-  padding: 32px 0;
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -70,4 +69,7 @@
 }
 .mobile-list {
   padding-top: 48px;
+}
+.mobile-contact-list {
+  margin-top: auto;
 }
