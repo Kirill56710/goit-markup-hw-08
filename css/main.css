@@ -262,6 +262,11 @@ img:last-child {
   padding: 10px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .page-header {
+    height: 80px;
+  }
+}
 .mobile-menu-btn {
   line-height: 0;
   border: none;
