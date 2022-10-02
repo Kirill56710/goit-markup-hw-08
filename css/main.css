@@ -547,6 +547,34 @@ header {
   background-size: cover;
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .black {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/mobile/header-mobile@2x.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .black {
+    max-width: 768px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/tablet/header-tablet.jpg");
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .black {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/tablet/header-tablet@2x.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .black {
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/desktop/work.jpg");
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .black {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/desktop/work@2x.jpg");
+  }
+}
 .title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -587,16 +615,17 @@ header {
 }
 
 .modal {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 581px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
   width: 100%;
+  max-height: 609px;
+  max-width: 450px;
 }
 
 .modal-close-button {
@@ -765,11 +794,6 @@ header {
     max-width: 450px;
   }
 }
-@media screen and (min-width: 480px) {
-  .modal {
-    margin-right: 155px;
-  }
-}
 @media screen and (min-width: 768px) {
   .button-modal {
     margin-top: 30px;
@@ -778,6 +802,15 @@ header {
 @media screen and (min-width: 1200px) {
   .modal {
     max-width: 528px;
+  }
+  .modal {
+    height: 581px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .backdrop {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 .whitesecond {
