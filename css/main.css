@@ -93,7 +93,7 @@ img:last-child {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -293,6 +293,11 @@ header {
   margin-right: 50px;
 }
 
+@media screen and (max-width: 1199px) {
+  .item {
+    margin-right: 0px;
+  }
+}
 .item:last-child {
   margin-right: 0px;
 }
@@ -300,14 +305,20 @@ header {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .site-nav {
   display: flex;
   margin-left: 93px;
+  gap: 30px;
 }
 
+@media screen and (min-width: 1199px) {
+  .site-nav {
+    margin-left: 88px;
+    gap: 0px;
+  }
+}
 .site-nav .logo {
   margin-right: 93px;
 }
@@ -398,16 +409,9 @@ header {
 }
 
 @media screen and (max-width: 1199px) {
-  .auto-link {
-    margin-left: 115px;
-  }
-}
-@media screen and (max-width: 1199px) {
   .auto-link-mail {
     margin-top: 8px;
     margin-bottom: 10px;
-    margin-right: 15px;
-    margin-left: 115px;
   }
 }
 .mail {
@@ -570,6 +574,8 @@ header {
   .black {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/tablet/header-tablet.jpg");
     height: 400px;
+    padding-block: 118px;
+    max-width: 768px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -583,6 +589,8 @@ header {
     max-width: 1600px;
     height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/desktop/work.jpg");
+    padding-block: 200px;
+    max-width: 1600px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {

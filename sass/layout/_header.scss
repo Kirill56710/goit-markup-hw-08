@@ -34,17 +34,28 @@ header {
   position: relative;
   margin-right: 50px;
 }
+@media screen and (max-width: 1199px) {
+  .item {
+    margin-right: 0px;
+  }
+}
 .item:last-child {
   margin-right: 0px;
 }
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .site-nav {
   display: flex;
   margin-left: 93px;
+  gap: 30px;
+}
+@media screen and (min-width: 1199px) {
+  .site-nav {
+    margin-left: 88px;
+    gap: 0px;
+  }
 }
 .site-nav .logo {
   margin-right: 93px;
@@ -136,17 +147,15 @@ header {
     color: #2196f3;
   }
 }
-@media screen and (max-width: 1199px) {
-  .auto-link {
-    margin-left: 115px;
-  }
-}
+// @media screen and (max-width: 1199px) {
+//   .auto-link {
+//     margin-left: 115px;
+//   }
+// }
 @media screen and (max-width: 1199px) {
   .auto-link-mail {
     margin-top: 8px;
     margin-bottom: 10px;
-    margin-right: 15px;
-    margin-left: 115px;
   }
 }
 
