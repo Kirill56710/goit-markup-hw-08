@@ -1,6 +1,5 @@
 .mobile-site-link {
   position: relative;
-  color: #212121;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 40px;
@@ -15,7 +14,12 @@
     color: #2196f3;
   }
 }
-
+.blu-menu {
+  color: #2196f3;
+}
+.black-menu {
+  color: #212121;
+}
 .mobile-auto-tel {
   color: #2196f3;
   font-family: "Roboto", sans-serif;
