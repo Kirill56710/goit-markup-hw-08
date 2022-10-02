@@ -5,9 +5,12 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
 }
 .skills-item {
-  width: 270px;
+  width: 100%;
+  max-width: 354px;
 }
 .heading-uppercase {
   text-transform: uppercase;
@@ -39,7 +42,7 @@
 }
 .vector-fon {
   background-color: #f5f4fa;
-  width: 270px;
+  // width: 270px;
   height: 120px;
   display: flex;
   align-items: center;
@@ -66,4 +69,10 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(47, 48, 58, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .skills-item {
+    width: calc(50% - 25px);
+  }
 }

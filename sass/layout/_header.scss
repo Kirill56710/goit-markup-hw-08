@@ -40,6 +40,7 @@ header {
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .site-nav {
   display: flex;
@@ -123,7 +124,7 @@ header {
   color: var(--color-p);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.02em;
   text-decoration: none;
   line-height: 1.14;
