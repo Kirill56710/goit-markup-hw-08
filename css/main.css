@@ -1335,9 +1335,8 @@ header {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .more-img {
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
   }
 }
 .wrapper-portfolio {
@@ -1349,5 +1348,14 @@ header {
   .more-img {
     align-items: center;
     justify-content: center;
+  }
+}
+.portfolio-item {
+  width: 354px;
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-item {
+    width: 372px;
   }
 }/*# sourceMappingURL=main.css.map */
