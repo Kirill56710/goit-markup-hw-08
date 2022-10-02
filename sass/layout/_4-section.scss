@@ -4,6 +4,9 @@
 .emploer {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 .emploer-item {
   background: #ffffff;

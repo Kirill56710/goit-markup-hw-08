@@ -920,6 +920,9 @@ header {
 .emploer {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .emploer-item {
@@ -980,11 +983,10 @@ header {
 
 .partners-svg {
   display: flex;
-  align-items: center;
-}
-
-.partners-li:not(:last-child) {
-  margin-right: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .partners {
