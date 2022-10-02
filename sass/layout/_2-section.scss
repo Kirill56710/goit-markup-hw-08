@@ -4,6 +4,7 @@
 .skills {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 .skills-item {
   width: 270px;
