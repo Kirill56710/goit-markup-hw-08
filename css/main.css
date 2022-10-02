@@ -819,6 +819,11 @@ header {
   padding-top: 0px;
 }
 
+@media screen and (max-width: 1200px) {
+  .whitesecond {
+    display: none;
+  }
+}
 .skills {
   display: flex;
   gap: 30px;
@@ -901,6 +906,11 @@ header {
 @media screen and (min-width: 768px) {
   .skills-item {
     width: calc(50% - 25px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .skills-item {
+    width: 270px;
   }
 }
 .section.grey {
